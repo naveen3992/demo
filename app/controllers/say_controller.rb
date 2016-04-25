@@ -3,6 +3,7 @@ class SayController < ApplicationController
   	@time=Time.now
 
   	@file=Dir.glob('*')
+	puts "Bye world"
   end
 
   def goodbye
